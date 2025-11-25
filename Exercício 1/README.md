@@ -23,20 +23,20 @@ Criar uma função que aceite o nome de uma pessoa como entrada e retorne uma me
 Se você chamar a função com o nome "Alexandre":
 
 JavaScript
-`
+```
 const nome1 = "Alexandre";
 console.log(gerarSaudacao(nome1));
 // Resultado esperado: "Olá, Alexandre! Bem-vindo(a) ao mundo JavaScript."
-`*
+```
 
 Se você chamar a função com o nome "Mariana":
 
 JavaScript
-´
+```
 const nome2 = "Mariana";
 console.log(gerarSaudacao(nome2));
 // Resultado esperado: "Olá, Mariana! Bem-vindo(a) ao mundo JavaScript."
-´
+```
 
 💡 Dicas
 
@@ -51,7 +51,7 @@ Forma executada:
 
 Html:
 
-`
+```
 <!DOCTYPE html>
 
 <html lang="pt-br">
@@ -93,10 +93,10 @@ Html:
 </body>
 
 </html>
-`
+```
 
 Css:
-`
+```
 h1 {
 
     color: #333;
@@ -120,11 +120,11 @@ section#formulario {
     text-align: center;
 
 }
-`
+```
 
 Java Script:
 
-`
+```
 function gerarSaudacao() {
 
     const name = document.getElementById('nome').value;
@@ -140,14 +140,14 @@ function gerarSaudacao() {
     }
 
 }
-`
+```
 
 
 
 *Correção*
 
 Html:
-`
+```
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -172,10 +172,10 @@ Html:
     <script src="script.js"></script>
 </body>
 </html>
-`
+```
 
 JavaScript:
-`
+```
 function gerarSaudacao() {
     const nome = document.getElementById('nome').value;
     const elementoResultado = document.getElementById('saudacao-resultado');
@@ -192,4 +192,4 @@ function gerarSaudacao() {
         elementoResultado.style.color = 'green'; // Opcional: Estilo para sucesso
     }
 }
-`
+```
